@@ -11,6 +11,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contacts from "./pages/Contacts";
 import Project from "./pages/Project";
+import NotFound from "./pages/NotFound";
 
 
 
@@ -23,9 +24,10 @@ function App() {
                 <Navbar/>
                 <Routes>
                     <Route path='/dev-portfolio' element={<Home/>}/>
-                    <Route path='/projects' element={<Projects/>}/>
-                    <Route path='/project/:id' element={<Project/>}/>
-                    <Route path='/contacts' element={<Contacts/>}/>
+                    <Route path='/dev-portfolio/projects' element={<Projects/>}/>
+                    <Route path='/dev-portfolio/project/:id' element={<Project/>}/>
+                    <Route path='/dev-portfolio/contacts' element={<Contacts/>}/>
+                    <Route path='*' element={<NotFound/>}/>
                 </Routes>
                 <Footer/>
             </Router>
