@@ -14,7 +14,7 @@ function Navbar() {
             <div className="container">
                 <div className="nav-row">
 
-                    <NavLink to='/dev-portfolio' className="logo">
+                    <NavLink to='/' className="logo">
                         <strong>dev</strong> portfolio
                     </NavLink>
 
@@ -23,19 +23,19 @@ function Navbar() {
 
                     <ul className="nav-list">
                         <li className="nav-list__item">
-                            <NavLink to='/dev-portfolio' className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink to='/' className={({isActive}) => isActive ? activeLink : normalLink}>
                                 home
                             </NavLink>
                         </li>
 
 
                         <li className="nav-list__item">
-                            <NavLink to='/dev-portfolio/projects' className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink to='/' className={({isActive}) => isActive ? activeLink : normalLink}>
                                 projects
                             </NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <NavLink to='/dev-portfolio/contacts' className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink to='/' className={({isActive}) => isActive ? activeLink : normalLink}>
                                 contacts
                             </NavLink>
                         </li>
