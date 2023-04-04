@@ -19,15 +19,15 @@ function App() {
     return (
         <div className="App">
 
-            <Router>
+            <Router basename='/dev-portfolio'>
                 <ScrollToTop/>
                 <Navbar/>
                 <Routes>
-                    <Route path='/dev-portfolio' element={<Home/>}/>
-                    <Route path='/dev-portfolio/projects' element={<Projects/>}/>
-                    <Route path='/dev-portfolio/project/:id' element={<Project/>}/>
-                    <Route path='/dev-portfolio/contacts' element={<Contacts/>}/>
-                    <Route path='*' element={<NotFound/>}/>
+                    <Route path='/' element={<Home/>}/>
+                    <Route path='/projects' element={<Projects/>}/>
+                    <Route path='/project/:id' element={<Project/>}/>
+                    <Route path='/contacts' element={<Contacts/>}/>
+                    <Route path='/*' element={<NotFound/>}/>
                 </Routes>
                 <Footer/>
             </Router>
