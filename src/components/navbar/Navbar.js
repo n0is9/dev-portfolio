@@ -30,12 +30,12 @@ function Navbar() {
 
 
                         <li className="nav-list__item">
-                            <NavLink to='/' className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink to='/projects' className={({isActive}) => isActive ? activeLink : normalLink}>
                                 projects
                             </NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <NavLink to='/' className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink to='/contacts' className={({isActive}) => isActive ? activeLink : normalLink}>
                                 contacts
                             </NavLink>
                         </li>
