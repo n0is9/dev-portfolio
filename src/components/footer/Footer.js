@@ -1,8 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './style.css'
-// import instagram from "../../img/icons/instagram.svg";
-// import twitter from "../../img/icons/twitter.svg";
 import gitHub from "../../img/icons/gitHub.svg";
 import linkedIn from "../../img/icons/linkedIn.svg";
 import telegram from "../../img/icons/telegram.svg";
