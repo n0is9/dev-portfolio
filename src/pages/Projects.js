@@ -20,8 +20,6 @@ function Projects() {
                             />
                         )
                     })}
-
-
                 </ul>
             </div>
         </main>
