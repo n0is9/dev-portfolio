@@ -13,14 +13,14 @@ function Home() {
 
                     <ul className="content-list">
                         <li className="content-list__item">
-                            <h2 className="title-2">frontend</h2>
-                            <p>JavaScript, TypeScript, ReactJS, Redux, HTML5, CSS3, NPM, Yarn, BootStrap, MaterialUI,
-                                TailwindCSS, StyledComponents</p>
+                            <h2 className="title-2">tech stack</h2>
+                            <p>JavaScript, TypeScript, ReactJS, Redux, Redux Toolkit, React-redux, HTML5, CSS3, NPM, Yarn, BootStrap, MaterialUI,
+                                TailwindCSS, StyledComponents, Rest API, Axios, Fetch API, Git, GitHub, Figma</p>
                         </li>
-                        <li className="content-list__item">
+                        {/*<li className="content-list__item">
                             <h2 className="title-2">backend</h2>
                             <p>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
-                        </li>
+                        </li>*/}
                     </ul>
 
                 </div>
