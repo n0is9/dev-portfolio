@@ -10,53 +10,38 @@ import project03big from '../img/projects/03-big.jpg'
 import project04 from '../img/projects/04.jpg'
 import project04big from '../img/projects/04-big.jpg'
 
-import project05 from '../img/projects/05.jpg'
-import project05big from '../img/projects/05-big.jpg'
-
-import project06 from '../img/projects/06.jpg'
-import project06big from '../img/projects/06-big.jpg'
 
 export const projects = [
     {
-        title: 'Gaming streaming portal',
-        skills: 'React, css...',
+        title: 'Todo Planner',
+        skills: 'ReactJS, React Hooks, TailwindCSS',
         img: project01,
         imgBig: project01big,
-        gitHubLink: 'https://www.youtube.com/watch?v=Iz1NvqG7wTc'
+        siteLink: 'https://n0is9.github.io/todo-planner/',
+        gitHubLink: 'https://github.com/n0is9/todo-planner/tree/master'
     },
     {
-        title: 'Video service',
-        skills: 'React, Node.js, MongoDB',
+        title: 'Weather App',
+        skills: 'React, Rest Api, Axios, CSS',
         img: project02,
         imgBig: project02big,
-        gitHubLink: 'https://www.youtube.com/watch?v=Iz1NvqG7wTc'
+        siteLink: 'https://n0is9.github.io/cloudie/',
+        gitHubLink: 'https://github.com/n0is9/cloudie/tree/master'
     },
     {
-        title: 'Video portal',
-        skills: 'React, css...',
+        title: 'Task Manager',
+        skills: 'React, React Hooks, CSS',
         img: project03,
         imgBig: project03big,
-        gitHubLink: 'https://www.youtube.com/watch?v=Iz1NvqG7wTc'
+        siteLink: 'https://n0is9.github.io/task-manager/',
+        gitHubLink: 'https://github.com/n0is9/task-manager/tree/master'
     },
     {
-        title: 'Dating app',
-        skills: 'React, css...',
+        title: 'Pizza Marketplace',
+        skills: 'TypeScript, React, React Hooks, Redux Toolkit, React-redux, Rest API, Axios, SCSS Figma',
         img: project04,
         imgBig: project04big,
-        gitHubLink: 'https://www.youtube.com/watch?v=Iz1NvqG7wTc'
-    },
-    {
-        title: 'Landing',
-        skills: 'React, css...',
-        img: project05,
-        imgBig: project05big,
-        gitHubLink: 'https://www.youtube.com/watch?v=Iz1NvqG7wTc'
-    },
-    {
-        title: 'Gaming community',
-        skills: 'React, css...',
-        img: project06,
-        imgBig: project06big,
-        gitHubLink: 'https://www.youtube.com/watch?v=Iz1NvqG7wTc'
+        siteLink: 'https://n0is9.github.io/pizza-paradiso/',
+        gitHubLink: 'https://github.com/n0is9/pizza-paradiso/tree/master'
     },
 ]

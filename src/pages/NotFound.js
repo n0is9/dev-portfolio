@@ -8,7 +8,7 @@ function NotFound() {
                     <strong><em>404</em></strong><br/>
                 </h1>
                 <div className="header__text">
-                    <p>page not found.</p>
+                    <p>Page Not Found.</p>
                 </div>
             </div>
         </main>

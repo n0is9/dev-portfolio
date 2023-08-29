@@ -1,15 +1,13 @@
 import React from "react";
 import './style.css'
-import gitHubIcon from "./gitHub-black.svg";
 import {NavLink} from "react-router-dom";
 
-function BtnGitHub({link}) {
+function BtnSite({link}) {
     return (
         <NavLink to={link} target='_blank' rel='noreferrer' className="btn-outline">
-            <img src={gitHubIcon} alt=""/>
-            GitHub Repo
+            View Site
         </NavLink>
     )
 }
 
-export default BtnGitHub
+export default BtnSite

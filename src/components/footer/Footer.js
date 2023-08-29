@@ -38,7 +38,7 @@ function Footer() {
                         ))}
                     </ul>
                     <div className="copyright">
-                        <p>© 2023 developed by artem zakharchuk</p>
+                        <p>© 2023 Developed by Artem Zakharchuk</p>
                     </div>
                 </div>
             </div>

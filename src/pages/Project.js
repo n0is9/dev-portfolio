@@ -1,8 +1,9 @@
 import React from "react";
 
-import {useParams} from 'react-router-dom'
+import {NavLink, useParams} from 'react-router-dom'
 import {projects} from "../helpers/projects-list";
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
+import BtnSite from "../components/btnSite/BtnSite";
 
 
 function Project() {
@@ -20,11 +21,15 @@ function Project() {
                     <img src={project.imgBig} alt={project.title} className="project-details__cover"/>
 
                     <div className="project-details__desc">
-                        <p>skills used: {project.skills}</p>
+                        <p>Skills Used: {project.skills}</p>
                     </div>
 
+                    {project.siteLink && (
+                        <BtnSite link={project.siteLink}/>
+                    )}
+
                     {project.gitHubLink && (
-                        <BtnGitHub link='https://github.com/'/>
+                        <BtnGitHub link={project.gitHubLink}/>
                     )}
 
                 </div>
